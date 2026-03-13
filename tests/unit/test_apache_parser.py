@@ -10,4 +10,4 @@ def test_parser_valid_line():
     assert result["event_type"] == "LOGIN_FAILED"
     
 def test_returns_none_for_garbage():
-    assert parser.parse("da ist kein log") is None # PUSH PUSH PUSH PUSH PUSH
+    assert parser.parse("da ist kein log") is None
