@@ -6,3 +6,4 @@ __pycache__/
 src/mini_siem.egg-info/
 dist/
 test_quick.py
+.pytest_cache/
